@@ -1,13 +1,23 @@
-
 import './App.css'
+
+
+import Products from "./helpers/Products.jsx";
+
+
 
 function App() {
 
-  return (
+return(
     <>
-        <h1>Fruitmand bezorgservice</h1>
+    <div>
+        <Products/>
+    </div>
     </>
-  )
+)
+
+
+
 }
+
 
 export default App
