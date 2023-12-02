@@ -1,0 +1,5 @@
+.contactForm{
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+}
