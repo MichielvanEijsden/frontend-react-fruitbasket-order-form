@@ -1,0 +1,23 @@
+.outerContainer{
+    display: flex;
+
+    justify-content: center;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.contactForm label{
+    margin: 5px;
+    font-size: 20px;
+}
+.contactForm select{
+    font-size: 17px;
+}
+.list{
+    display: flex;
+    flex-direction: column
+}
