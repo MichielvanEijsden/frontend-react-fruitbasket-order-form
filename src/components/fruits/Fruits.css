@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vh;
+}
+
+.schoppingCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+    margin: .5rem;
+}
+.schoppingCard button{
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem;
+    border-radius: 3rem;
+    background-color: yellowgreen;
+    border: green 1px solid;
+}
+.resetButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+}
+.resetButton button{
+    width: 20rem;
+    height: 3rem;
+    margin: .5rem;
+    border-radius: 3rem;
+    background: red;
+}
